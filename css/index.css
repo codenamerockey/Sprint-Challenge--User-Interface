@@ -229,6 +229,11 @@ nav a {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: 1s;
+}
+
+.box:hover {
+  transform: scale(1.5, 1.5);
 }
 
 .bottom-content {
@@ -243,6 +248,12 @@ nav a {
 
 .bottom-content .text-container:last-child {
   padding-right: 0;
+}
+
+#object {
+  background-color: #ffffff;
+
+  visibility: hidden;
 }
 
 #box1 {
